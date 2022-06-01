@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+	font-family: Hind;
+}
+
+#detail{
+	margin-left: 100px;
+}
+
+h1{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.customerBox{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.customers{
+	margin-left: 100px;
+	margin-top: 20px;
+	background-color: #343a40;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	border-radius: 10px;
+	flex: 0 0 40%;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.item{
+	font-size: 18pt;
+	text-align: center;
+	justify-content: center;
+}
+
+#search{
+	margin-top: 50px;
+}
+

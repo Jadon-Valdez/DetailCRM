@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+	font-family: Hind;
+}
+
+.header{
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.headerPhoto{
+	width: 100%;
+	height: 700px;
+}
+
+.welcome{
+	position: absolute;
+	top: 40%;
+	bottom: 50%;
+	right: 60%;
+	color: white;
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 800px){
+	.welcome{
+		margin-left: 200px;
+		right: 35%;
+		font-size: 65px;
+		top: 30%;
+	}
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	background-color: #071227;
+	color: white;
+	width: 100%;
+	height: 75px;
+	padding-top: 25px;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 800px){
+	.info{
+		height: 500px;
+		text-align: center;
+		flex-direction: column
+	}
+}
+
+.registerBox{
+	background-color: #071227;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 760px){
+	.registerBox{
+		flex-direction: column-reverse;
+		gap: 30px;
+	}
+}
+
+.viewPlans{
+	font-size: 50pt;
+	color: #071227;
+}
+
+.view{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	margin-bottom: 100px;
+}
+
+.plans{
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.planChild{
+	width: 260px;
+	padding-top: 0px;
+	border-radius: 10px;
+	border: 1px solid grey;
+}
+
+.planTitle{
+	font-size: 26pt;
+	background-color: #071227;
+	text-align: center;
+	font-weight: 300;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-left: 5px;
+}
+
+.pricing{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
+}
+
+@media only screen and (max-width: 760px){
+	.plans{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
+

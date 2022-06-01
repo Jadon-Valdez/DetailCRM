@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+	font-family: Hind;
+}
+
+#detail{
+	margin-left: 100px;
+}
+
+.name{
+	margin-top: 150px;
+}
+
+.top{
+	display: flex;
+	justify-content: center;
+	gap: 320px;
+	margin-top: 120px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 450px;
+}
+
+.customerInfo{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.table{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.upcoming{
+	display: flex;
+	width: 100%;
+	text-justify: center;
+}
+
+.text{
+	font-size: 30pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttons{
+	display: flex;
+}
+
+#edit{
+	
+}
+
+#delete{
+margin-left: 8px;
+}
+

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+	font-family: Hind;
+}
+
+#detail{
+	margin-left: 100px;
+}
+
+#hide{
+	display: none;
+}
+
+#form{
+	margin-top: 50px;
+}
+
+#title{
+	margin-top: 100px;
+}

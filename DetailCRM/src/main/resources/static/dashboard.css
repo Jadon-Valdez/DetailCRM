@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+	font-family: Hind;
+}
+
+#detail{
+	margin-left: 100px;
+}
+
+.welcome{
+	margin-top: 100px;
+	color: black;
+	margin-left: 100px;
+}
+
+h1{
+	font-size: 60pt;
+}
+
+.info{
+	font-size: 22pt;
+}
+
+.table{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+	margin-top: 100px;
+	margin-left: 10%;
+}
+
+
+
